@@ -5,16 +5,22 @@ import Footer from "../components/Footer";
 import HeroAdvert from "../components/HeroAdvert";
 import Navbar from "../components/Navbar";
 import ProductShowcase from "../components/ProductShowcase"
+import Promo from "../components/Promo";
 
 
 function HomePage() {
     return (
         <>
-            <main>
+            <header>
+                <Promo />
                 <Navbar />
-                <Aside />
-                <HeroAdvert />
-                <section>
+            </header>
+            <main>
+                <section className="hero">
+                    <Aside />
+                    <HeroAdvert />
+                </section>
+                <section className="section-two">
                     <p>Today</p>
                     <h3>Flash sales</h3>
                     <ProductShowcase />

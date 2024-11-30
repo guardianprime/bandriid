@@ -1,0 +1,32 @@
+.navbar {
+  width: 87%;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  margin: 0px auto;
+  padding: 15px;
+  background-color: #ffffffba;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 40%;
+  font-size: 1.2rem;
+}
+
+.logo {
+  width: 15%;
+  font-size: 30px;
+}
+
+.searchDiv {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  font-size: 1.2rem;
+}

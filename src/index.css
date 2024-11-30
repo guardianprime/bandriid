@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main {
+  padding: 0px 100px;
+}
+
+.navPromo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+  margin-top: 120px;
+}
+
+.section-two {
+  height: 35vh;
+  margin-top: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
