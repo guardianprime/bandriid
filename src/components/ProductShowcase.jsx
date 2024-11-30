@@ -1,7 +1,12 @@
+import styles from './ProductShowcase.module.css'
+
 function ProductShowcase() {
     return (
-        <div>
-            buy 1 get two free
+        <div className={styles.container}>
+            <div className={styles.children}>bread</div>
+            <div className={styles.children}>bread</div>
+            <div className={styles.children}>bread</div>
+            <div className={styles.children}>bread</div>
         </div>
     )
 }

@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.children {
+  width: 20%;
+  outline: 2px solid black;
+}

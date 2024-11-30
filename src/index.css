@@ -23,17 +23,77 @@ ul {
 .hero {
   display: flex;
   justify-content: space-between;
-  height: 45vh;
+  height: 40vh;
   margin-top: 120px;
 }
 
+section {
+  margin-top: 50px;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .section-two {
-  height: 35vh;
-  margin-top: 20px;
+  height: 45vh;
+  padding: 10px;
+}
+
+.section-three {
+  height: 30vh;
+  padding: 20px 0;
+}
+
+.section-four {
+  height: 45vh;
+  padding: 20px 0;
+}
+
+.section-five {
+  height: 70vh;
+  outline: 2px solid black;
+}
+
+.section-five-container {
+  height: 40%;
+  outline: 2px solid green;
+}
+
+/* Best selling height determinaiton using classses passed as props */
+
+.semi {
+  height: 70%;
+}
+
+.full {
+  height: 100%;
+}
+
+/* Design thingy for the sections */
+.design-container {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  color: red;
+}
+
+.design {
+  width: 20px;
+  height: 40px;
+  background-color: red;
+  margin-right: 10px;
+  border-radius: 2px;
 }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }

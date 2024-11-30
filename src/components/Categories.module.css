@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 65%;
+  margin-top: 15px;
+}
+
+.children {
+  width: 14%;
+  outline: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 3rem;
+}
