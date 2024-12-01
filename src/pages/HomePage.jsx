@@ -51,21 +51,63 @@ function HomePage() {
                 </section>
                 <Advert />
                 <section className="section-five">
-                    <div className="design-container">
-                        <div className="design"></div>
-                        <p>Our products</p>
+                    <div className="section-five__wrapper">
+                        <div>
+                            <div className="design-container">
+                                <div className="design"></div>
+                                <p>Our products</p>
+                            </div>
+                            <h3>Explore our products</h3>
+                        </div>
+                        <div className="arrow-container">
+                            <span><i className="fa-solid fa-arrow-left"></i></span>
+                            <span><i className="fa-solid fa-arrow-right"></i></span>
+                        </div>
                     </div>
-                    <h3>Explore our products</h3>
                     <div className="section-five-container"> <BestSelling height="full" /></div>
                     <div className="section-five-container">  <BestSelling height="full" /></div>
+                    <button>View All Products</button>
                 </section>
-                <section>
-                    <p>featured</p>
-                    <h3>New Arrival</h3>
+                <section className="section-six">
                     <div>
-                        <div>FREE AND FAST SERVICE</div>
-                        <div>24/7 CUSTOMER SERVICE</div>
-                        <div>MONEY BACK GURANTEE</div>
+                        <p>featured</p>
+                        <h3>New Arrival</h3>
+                    </div>
+                    <div className="section-six__container">
+                        <div className="big">ps5</div>
+                        <div className="side">perfumes</div>
+                        <div className="left">clothes</div>
+                        <div className="right">Speakers</div>
+                    </div>
+                </section>
+                <section className="section-seven">
+
+                    <div className="section-seven__containers">
+                        <div className="section-seven__icon-container">
+                            <div><i className="fa-solid fa-truck"></i></div>
+                        </div>
+                        <div>
+                            <p>FREE AND FAST SERVICE</p>
+                            <p>free delivery for all items over $140</p>
+                        </div>
+                    </div>
+                    <div className="section-seven__containers">
+                        <div className="section-seven__icon-container">
+                            <div><i className="fa-solid fa-headphones"></i></div>
+                        </div>
+                        <div>
+                            <p>24/7 CUSTOMER SERVICE</p>
+                            <p>Friendly 24/7 customer support</p>
+                        </div>
+                    </div>
+                    <div className="section-seven__containers">
+                        <div className="section-seven__icon-container">
+                            <div><i className="fa-solid fa-shield"></i></div>
+                        </div>
+                        <div>
+                            <p>MONEY BACK GURANTEE</p>
+                            <p>We return money back within 30 days.</p>
+                        </div>
                     </div>
                 </section>
             </main>

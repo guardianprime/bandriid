@@ -52,13 +52,114 @@ section {
 }
 
 .section-five {
-  height: 70vh;
-  outline: 2px solid black;
+  height: 90vh;
+  padding: 20px 0;
 }
 
 .section-five-container {
-  height: 40%;
-  outline: 2px solid green;
+  height: 35%;
+}
+
+.section-five__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-container {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-container span {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-five-container:last-of-type {
+  margin-top: 60px;
+}
+
+.section-six {
+  height: 60vh;
+  padding: 20px 0px;
+}
+
+.section-six__container {
+  margin-top: 30px;
+  height: 80%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "big big side side"
+    "big big left right";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.section-six__container > div {
+  border: 1px solid black;
+}
+
+.big {
+  grid-area: big;
+}
+
+.side {
+  grid-area: side;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.section-seven {
+  display: flex;
+  justify-content: space-evenly;
+  height: 20vh;
+  margin-bottom: 100px;
+}
+
+.section-seven__containers {
+  width: 30%;
+  text-align: center;
+}
+
+.section-seven__icon-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: #808080;
+}
+
+.section-seven__icon-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.section-seven__icon-container i {
+  font-size: 1.4rem;
+  color: white;
 }
 
 /* Best selling height determinaiton using classses passed as props */
