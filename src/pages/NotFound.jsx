@@ -1,8 +1,10 @@
 function NotFound() {
     return (
-        <div>
-            Page not found 404
-        </div>
+        <section>
+            <h1>404 not found</h1>
+            <p>your visited page not found. you may go back to home page</p>
+            <button>Back to home page</button>
+        </section>
     )
 }
 

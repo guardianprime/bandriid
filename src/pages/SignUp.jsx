@@ -1,8 +1,9 @@
 function SignUp() {
     return (
-        <div>
-            Sign up page
-        </div>
+        <section>
+            <div><img /></div>
+
+        </section>
     )
 }
 
