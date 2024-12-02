@@ -1,0 +1,66 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 100px;
+  height: 50vh;
+}
+
+.children {
+  width: 18%;
+  text-align: left;
+}
+
+.grandChildren {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.listItems {
+  margin-top: 10px;
+}
+
+.allImageContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.iconContainer {
+  margin-top: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgContainer {
+  background-color: white;
+  width: min-content;
+  height: min-content;
+}
+
+.svg {
+  width: 80px;
+  height: 80px;
+}
+
+.appImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appstoreImage,
+.playstoreImage {
+  width: 80px;
+  height: 35px;
+}
+
+.para {
+  margin-top: 20px;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
