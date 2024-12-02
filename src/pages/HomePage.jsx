@@ -6,7 +6,7 @@ import HeroAdvert from "../components/HeroAdvert";
 import Navbar from "../components/Navbar";
 import ProductShowcase from "../components/ProductShowcase"
 import Promo from "../components/Promo";
-import BestSelling from "./BestSelling";
+import BestSelling from "../components/BestSelling";
 
 
 function HomePage() {
