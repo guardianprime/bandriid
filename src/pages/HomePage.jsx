@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import ProductShowcase from "../components/ProductShowcase"
 import Promo from "../components/Promo";
 import BestSelling from "../components/BestSelling";
+import Recomendation from "../components/Recomendation";
 
 
 function HomePage() {
@@ -80,36 +81,7 @@ function HomePage() {
                         <div className="right">Speakers</div>
                     </div>
                 </section>
-                <section className="section-seven">
-
-                    <div className="section-seven__containers">
-                        <div className="section-seven__icon-container">
-                            <div><i className="fa-solid fa-truck"></i></div>
-                        </div>
-                        <div>
-                            <p>FREE AND FAST SERVICE</p>
-                            <p>free delivery for all items over $140</p>
-                        </div>
-                    </div>
-                    <div className="section-seven__containers">
-                        <div className="section-seven__icon-container">
-                            <div><i className="fa-solid fa-headphones"></i></div>
-                        </div>
-                        <div>
-                            <p>24/7 CUSTOMER SERVICE</p>
-                            <p>Friendly 24/7 customer support</p>
-                        </div>
-                    </div>
-                    <div className="section-seven__containers">
-                        <div className="section-seven__icon-container">
-                            <div><i className="fa-solid fa-shield"></i></div>
-                        </div>
-                        <div>
-                            <p>MONEY BACK GURANTEE</p>
-                            <p>We return money back within 30 days.</p>
-                        </div>
-                    </div>
-                </section>
+                <Recomendation />
             </main>
             <Footer />
         </>

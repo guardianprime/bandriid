@@ -131,44 +131,6 @@ section {
   grid-area: right;
 }
 
-.section-seven {
-  display: flex;
-  justify-content: space-evenly;
-  height: 20vh;
-  margin-bottom: 100px;
-}
-
-.section-seven__containers {
-  width: 30%;
-  text-align: center;
-}
-
-.section-seven__icon-container {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  background-color: #808080;
-}
-
-.section-seven__icon-container div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.section-seven__icon-container i {
-  font-size: 1.4rem;
-  color: white;
-}
-
 /* Best selling height determinaiton using classses passed as props */
 
 .semi {
