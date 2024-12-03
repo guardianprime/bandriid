@@ -1,0 +1,21 @@
+.section {
+  height: 55vh;
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+}
+
+.headerOne {
+  font-size: 3rem;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 40px;
+  background-color: #db444d;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
