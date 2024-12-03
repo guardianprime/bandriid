@@ -11,9 +11,18 @@
 .ul {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
+  list-style: none;
   width: 40%;
   font-size: 1.2rem;
+}
+
+.ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.ul a:global(.active) {
+  color: #484141;
 }
 
 .logo {
@@ -25,6 +34,10 @@
   width: 30%;
   display: flex;
   justify-content: space-around;
+}
+
+.searchDiv a {
+  color: black;
 }
 
 .icons {
