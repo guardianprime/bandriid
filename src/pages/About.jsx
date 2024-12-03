@@ -1,8 +1,19 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
+
 function About() {
     return (
-        <div>
-            About US PAGE
-        </div>
+        <>
+            <header>
+                <Navbar />
+            </header>
+            <main>
+                <section>
+                    About US PAGE
+                </section>
+            </main>
+            <Footer />
+        </>
     )
 }
 

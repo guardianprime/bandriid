@@ -5,15 +5,21 @@ import NotFound from "./pages/NotFound";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Wishlist from "./pages/Wishlist";
+import Account from "./pages/Account";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index path="homepage" element={<HomePage />} />
-        <Route path="Signup" element={<SignUp />} />
-        <Route path="About" element={<About />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="signup" element={<SignUp />} />
+        <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="Wishlist" element={<Wishlist />} />
+        <Route path="Account" element={<Account />} />
+        <Route path="Checkout" element={<Checkout />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

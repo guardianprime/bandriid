@@ -1,3 +1,4 @@
+import { NavLink, Link } from "react-router";
 import styles from './Navbar.module.css';
 
 function Navbar() {
@@ -5,15 +6,15 @@ function Navbar() {
         <nav className={styles.navbar}>
             <p className={styles.logo}>Bandriid</p>
             <ul className={styles.ul}>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>About</li>
-                <li>Sign Up</li>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/signup">Sign Up</NavLink>
             </ul>
             <div className={styles.searchDiv}>
                 <input type="text" placeholder="What are you looking for" />
-                <span className={styles.icons}><i className="fa-regular fa-heart"></i></span>
-                <span className={styles.icons}><i className="fa-solid fa-cart-shopping"></i></span>
+                <Link to="/wishlist"><span className={styles.icons}><i className="fa-regular fa-heart"></i></span></Link>
+                <Link to="/checkout"><span className={styles.icons}><i className="fa-solid fa-cart-shopping"></i></span></Link>
 
             </div>
         </nav>
