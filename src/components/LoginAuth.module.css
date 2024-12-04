@@ -1,0 +1,46 @@
+.form {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form p {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.formInput {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  padding: 10px;
+  width: 100%;
+}
+
+.btnContainer {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 35%;
+  height: 100%;
+  background-color: #db4444;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.forgottenPassword {
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #db4444;
+}

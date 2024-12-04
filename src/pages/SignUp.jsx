@@ -1,3 +1,4 @@
+import styles from './SignUp.module.css'
 import Footer from "../components/Footer";
 import LoginAuth from "../components/LoginAuth";
 import SignUpAuth from "../components/SignUpAuth";
@@ -11,9 +12,11 @@ function SignUp() {
                 <Navbar />
             </header>
             <main>
-                <section>
-                    <div><img /></div>
-                    {falseState ? <LoginAuth /> : <SignUpAuth />}
+                <section className={styles.section}>
+                    <div className={styles.imageContainer}><img src="sideImage.png" className={styles.sideImage} /></div>
+                    <div className={styles.formContainer}>
+                        {falseState ? <LoginAuth /> : <SignUpAuth />}
+                    </div>
                 </section>
             </main>
             <Footer />
