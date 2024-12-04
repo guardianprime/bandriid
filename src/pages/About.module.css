@@ -1,6 +1,6 @@
 .section {
   margin-top: 80px;
-  height: 200vh;
+  height: 270vh;
 }
 
 .hero {
@@ -72,4 +72,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0px 120px;
+}
+
+.profileContainerWrapper {
+  width: 30%;
+}
+
+.imageWrapper {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.imageWrapper img {
+  margin: 0 auto;
+  display: block;
+}
+
+.profileInfoContainer {
+  padding: 10px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.profileInfoContainer div {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 10px;
 }

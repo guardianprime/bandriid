@@ -81,7 +81,7 @@ function HomePage() {
                         <div className="right">Speakers</div>
                     </div>
                 </section>
-                <Recomendation />
+                <Recomendation customHeight="20vh" customMarginBottom="100px" />
             </main>
             <Footer />
         </>

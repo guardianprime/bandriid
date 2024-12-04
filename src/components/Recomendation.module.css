@@ -1,8 +1,6 @@
 .section {
   display: flex;
   justify-content: space-evenly;
-  height: 20vh;
-  margin-bottom: 100px;
 }
 
 .containers {

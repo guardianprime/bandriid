@@ -51,12 +51,45 @@ function About() {
                             <p>Annual gross sale on our site</p>
                         </div>
                     </div>
-                    <div>
-                        <div><img src="" /></div>
-                        <div><img src="" /></div>
-                        <div><img src="" /></div>
+                    <div className={styles.profileContainer}>
+                        <div className={styles.profileContainerWrapper}>
+                            <div className={styles.imageWrapper}><img src="imageOne.png" /></div>
+                            <div className={styles.profileInfoContainer}>
+                                <h3>Tom Cruise</h3>
+                                <p>Founder & Chairman</p>
+                                <div>
+                                    <span><i className="fa-brands fa-linkedin"></i></span>
+                                    <span><i className="fa-brands fa-square-x-twitter"></i></span>
+                                    <span><i className="fa-brands fa-square-instagram"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.profileContainerWrapper}>
+                            <div className={styles.imageWrapper}><img src="imageTwo.png" /></div>
+                            <div className={styles.profileInfoContainer}>
+                                <h3>Tom Cruise</h3>
+                                <p>Founder & Chairman</p>
+                                <div>
+                                    <span><i className="fa-brands fa-linkedin"></i></span>
+                                    <span><i className="fa-brands fa-square-x-twitter"></i></span>
+                                    <span><i className="fa-brands fa-square-instagram"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.profileContainerWrapper}>
+                            <div className={styles.imageWrapper}><img src="imageThree.png" /></div>
+                            <div className={styles.profileInfoContainer}>
+                                <h3>Tom Cruise</h3>
+                                <p>Founder & Chairman</p>
+                                <div>
+                                    <span><i className="fa-brands fa-linkedin"></i></span>
+                                    <span><i className="fa-brands fa-square-x-twitter"></i></span>
+                                    <span><i className="fa-brands fa-square-instagram"></i></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <Recomendation />
+                    <Recomendation customHeight="24vh" customMarginBottom="50px" />
                 </section>
             </main>
             <Footer />

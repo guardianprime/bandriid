@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import styles from './Recomendation.module.css'
 
-function Recomendation() {
+function Recomendation({ customHeight, customMarginBottom }) {
+
     return (
-        <section className={styles.section}>
+        <section className={styles.section} style={{ height: customHeight, marginBottom: customMarginBottom }}>
 
             <div className={styles.containers}>
                 <div className={styles.iconContainer}>
