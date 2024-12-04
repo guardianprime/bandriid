@@ -5,7 +5,7 @@ import SignUpAuth from "../components/SignUpAuth";
 import Navbar from "../components/Navbar";
 
 function SignUp() {
-    let falseState = false;
+    let falseState = true;
     let sectionHeight;
 
     if (falseState) {
