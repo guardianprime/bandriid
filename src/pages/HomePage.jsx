@@ -48,7 +48,7 @@ function HomePage() {
                         <button>View All</button>
                     </div>
                     <h3>Best Selling Products</h3>
-                    <BestSelling height="semi" />
+                    <BestSelling height="semi" customMargin="20px" />
                 </section>
                 <Advert />
                 <section className="section-five">
@@ -65,8 +65,8 @@ function HomePage() {
                             <span><i className="fa-solid fa-arrow-right"></i></span>
                         </div>
                     </div>
-                    <div className="section-five-container"> <BestSelling height="full" /></div>
-                    <div className="section-five-container">  <BestSelling height="full" /></div>
+                    <div className="section-five-container"> <BestSelling height="full" customMargin="20px" /></div>
+                    <div className="section-five-container">  <BestSelling height="full" customMargin="0px" /></div>
                     <button>View All Products</button>
                 </section>
                 <section className="section-six">

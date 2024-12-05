@@ -3,9 +3,9 @@ import ProductDisplay from './ProductDisplay';
 import styles from './BestSelling.module.css';
 
 
-function BestSelling({ height }) {
+function BestSelling({ height, customMargin }) {
     return (
-        <div className={`${styles.container} ${height}`}>
+        <div className={`${styles.container} ${height}`} style={{ marginTop: customMargin }}>
             <div className={styles.children}>
                 <ProductDisplay />
             </div>
@@ -18,7 +18,7 @@ function BestSelling({ height }) {
             <div className={styles.children}>
                 <ProductDisplay />
             </div>
-        </div>
+        </div >
     )
 }
 

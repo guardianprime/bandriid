@@ -54,17 +54,17 @@ section {
 }
 
 .section-four {
-  height: 45vh;
+  height: 70vh;
   padding: 20px 0;
 }
 
 .section-five {
-  height: 90vh;
+  height: 105vh;
   padding: 20px 0;
 }
 
 .section-five-container {
-  height: 35%;
+  height: 40%;
 }
 
 .section-five__wrapper {
@@ -90,7 +90,7 @@ section {
 }
 
 .section-five-container:last-of-type {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .section-six {

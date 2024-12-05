@@ -9,12 +9,12 @@ function ProductDisplay() {
       </div>
       <div className={styles.absolute}>
         <span className={styles.discount}>-40%</span>
-        <div className={styles.loveIconContainer}><span>❤</span></div>
+        <div className={styles.loveIconContainer}><span><i className="fa-regular fa-heart"></i></span></div>
       </div>
       <h3>Product Name</h3>
       <div className={styles.priceContainer}>
         <span>$120</span>
-        <span>$160</span>
+        <span className={styles.oldPrice}>$160</span>
       </div>
       <div className={styles.ratingWrapper}>
         <div className={styles.ratingsContainer}>
