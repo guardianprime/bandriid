@@ -1,0 +1,15 @@
+.wishlistContainer {
+  height: 40vh;
+}
+
+.wishlistSection {
+  height: min-content;
+}
+
+.wishlistSection:first-of-type {
+  margin-top: 90px;
+}
+
+.wishlistSection:last-of-type {
+  margin-bottom: 50px;
+}

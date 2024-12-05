@@ -2,6 +2,7 @@
   position: relative;
   margin: 5px;
   height: 100%;
+  width: 90%;
 }
 
 .container:hover,
@@ -51,8 +52,8 @@
 .image {
   margin-top: 50px;
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 70%;
+  height: 80%;
 }
 
 .priceContainer {

@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import BestSelling from "../components/BestSelling";
+import styles from './Wishlist.module.css'
 
 
 function Wishlist() {
@@ -10,19 +11,29 @@ function Wishlist() {
                 <Navbar />
             </header>
             <main>
-                <section>
-                    <div>
-                        <p>Wishlist</p>
-                        <p>Move all to bag</p>
-                    </div>
-                    <div>
-                        <div>bread</div>
-                        <div>bread</div>
-                        <div>bread</div>
-                        <div>bread</div>
+                <section className={styles.wishlistSection}>
+                    <div className={styles.wishlistContainer}>
+                        <div className="section-wrapper">
+                            <div className="design-container">
+                                <p>WishList (4)</p>
+                            </div>
+                            <button>Move all to bag</button>
+                        </div>
+                        <BestSelling height="semi" customMargin="10px" />
                     </div>
                 </section>
-                <BestSelling />
+                <section className={styles.wishlistSection}>
+                    <div className={styles.wishlistContainer}>
+                        <div className="section-wrapper">
+                            <div className="design-container">
+                                <div className="design"></div>
+                                <p>Just for you</p>
+                            </div>
+                            <button>See All</button>
+                        </div>
+                        <BestSelling height="semi" customMargin="10px" />
+                    </div>
+                </section>
             </main>
             <Footer />
         </>
