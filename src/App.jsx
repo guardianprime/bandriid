@@ -17,9 +17,9 @@ function App() {
         <Route path="signup" element={<SignUp />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="Wishlist" element={<Wishlist />} />
-        <Route path="Account" element={<Account />} />
-        <Route path="Checkout" element={<Checkout />} />
+        <Route path="wishlist" element={<Wishlist />} />
+        <Route path="account" element={<Account />} />
+        <Route path="checkout" element={<Checkout />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

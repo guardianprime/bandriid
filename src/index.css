@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --CUSTOMRED: #fd4444;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }

@@ -37,6 +37,6 @@
 
 .btn:first-of-type {
   border: none;
-  background-color: #fd4444;
+  background-color: var(--CUSTOMRED);
   color: white;
 }
