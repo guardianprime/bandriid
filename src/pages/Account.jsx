@@ -9,44 +9,57 @@ function Account() {
                 <Navbar />
             </header>
             <main>
-                <section>
-                    <div>
-                        <ul>
+                <section className={styles.section}>
+                    <div className={styles.sidebar}>
+                        <ul className={styles.list}>
                             <li>
-                                Manage my Account
-                                <ul>
-                                    <li>My Profile</li>
+                                <h3>Manage my Account</h3>
+                                <ul className={styles.subList}>
+                                    <li className={styles.selected}>My Profile</li>
                                     <li>Address book</li>
                                     <li>My payments option</li>
                                 </ul>
                             </li>
                             <li>
-                                My orders
-                                <ul>
+                                <h3>My orders</h3>
+                                <ul className={styles.subList}>
                                     <li>My returns</li>
-                                    <li>My cancellations</li>
+                                    <li>My cancel lations</li>
                                 </ul>
                             </li>
-                            <li>Wishlist</li>
+                            <li><h3>Wishlist</h3></li>
                         </ul>
                     </div>
                     <div className={styles.formContainer}>
                         <form>
-                            <label htmlFor="firstName">First Name</label>
-                            <input id="firstName" type="text" />
-                            <label htmlFor="lastName">Last Name</label>
-                            <input type="text" id="lastName" />
-                            <label htmlFor="email">Email</label>
-                            <input type="email" id="email" />
-                            <label htmlFor="address">Address</label>
-                            <input type="text" id="address" />
-                            <label>Password changes</label>
-                            <input type="text" />
-                            <input type="text" />
-                            <input type="text" />
-                            <div>
+                            <h3>Edit your profile</h3>
+                            <div className={styles.formInputContainer}>
+                                <div className={styles.formInputWrapper}>
+                                    <label htmlFor="firstName" >First Name</label>
+                                    <input className={styles.formInput} id="firstName" type="text" placeholder="john" />
+                                </div>
+                                <div className={styles.formInputWrapper}>
+                                    <label htmlFor="lastName">Last Name</label>
+                                    <input className={styles.formInput} type="text" id="lastName" placeholder="doe" />
+                                </div>
+                                <div className={styles.formInputWrapper}>
+                                    <label htmlFor="email">Email</label>
+                                    <input className={styles.formInput} type="email" id="email" placeholder="johndoe@gmail.com" />
+                                </div>
+                                <div className={styles.formInputWrapper}>
+                                    <label htmlFor="address">Address</label>
+                                    <input className={styles.formInput} type="text" id="address" placeholder="125 billings street, NYC." />
+                                </div>
+                            </div>
+                            <div className={styles.passwordContainer}>
+                                <label>Password changes</label>
+                                <input className={styles.formInput} placeholder="current password" type="text" />
+                                <input className={styles.formInput} placeholder="new password" type="text" />
+                                <input className={styles.formInput} placeholder="confirm new password" type="text" />
+                            </div>
+                            <div className={styles.btnContainer}>
                                 <span>cancel</span>
-                                <button>Save changes</button>
+                                <button className={styles.btn}>Save changes</button>
                             </div>
                         </form>
                     </div>

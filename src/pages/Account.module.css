@@ -1,0 +1,74 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+  width: 80%;
+  padding: 10px;
+  margin: 100px auto 0px;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.formContainer {
+  width: 70%;
+  padding: 10px;
+}
+
+.formInput {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  background-color: var(--INPUT-BG);
+  padding: 10px;
+}
+
+.formInputContainer {
+  margin-top: 20px;
+  display: grid;
+  height: 35%;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.passwordContainer {
+  margin-top: 10px;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.btn {
+  width: 200px;
+  color: white;
+  background-color: var(--CUSTOMRED);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.list > li {
+  margin-top: 20px;
+}
+
+.subList {
+  margin-left: 30px;
+  margin-top: 15px;
+  color: #252525;
+  font-weight: 400;
+}
+
+.selected {
+  color: var(--CUSTOMRED);
+}

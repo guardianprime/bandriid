@@ -50,7 +50,7 @@
 .input {
   border: none;
   padding: 10px;
-  background-color: #f5f5f5;
+  background-color: var(--INPUT-BG);
   border-radius: 5px;
 }
 
