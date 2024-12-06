@@ -14,7 +14,7 @@ function Navbar() {
             <div className={styles.searchDiv}>
                 <input type="text" placeholder="What are you looking for" />
                 <Link to="/wishlist"><span className={styles.icons}><i className="fa-regular fa-heart"></i></span></Link>
-                <Link to="/checkout"><span className={styles.icons}><i className="fa-solid fa-cart-shopping"></i></span></Link>
+                <Link to="/cart"><span className={styles.icons}><i className="fa-solid fa-cart-shopping"></i></span></Link>
                 <Link to="/account"><span className={styles.icons}><i className="fa-solid fa-user"></i></span></Link>
             </div>
         </nav>

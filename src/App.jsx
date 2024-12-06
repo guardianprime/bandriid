@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Wishlist from "./pages/Wishlist";
 import Account from "./pages/Account";
-import Checkout from "./pages/Checkout";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="account" element={<Account />} />
-        <Route path="checkout" element={<Checkout />} />
+        <Route path="cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
