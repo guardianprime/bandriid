@@ -1,6 +1,6 @@
-import styles from './Checkout.module.css';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import styles from './Cart.module.css';
 
 function Cart() {
     return (
